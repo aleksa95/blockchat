@@ -30,6 +30,8 @@
 .main {
   background: white;
   height: calc(100vh - 200px); 
+  text-align: left;
+  font-size: 25px;
 }
 
 .footer {
@@ -43,15 +45,24 @@
 .footer textarea {
   display: flex;
   flex-grow: 2;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .submit_button {
   width: auto;
-  background: red;
+  height: auto;
+  background: white;
+  padding-top: 15px;
+}
+
+.submit_button div {
+  top: 0;
+  left: 0;
 }
 
 .button_base {
-  
+
 }
 
 

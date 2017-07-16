@@ -3,6 +3,8 @@ window.addEventListener('load', function() {
     console.log("Using MetaMask");
 
     window.web3 = new Web3(web3.currentProvider);
+
+    window.ethereumService.initialize(callback);
   } else {
     console.log("Using local Ethereum node");
 
