@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #1A1A1A;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.wrapper {
+  height: calc(100vh - 100px);
+}
+
+.main {
+  background: white;
+  height: calc(100vh - 200px); 
+}
+
+.footer {
+  display: flex;
+
+  width: 100%;
+  background: #383838;
+  height: 100px;
+}
+
+.footer textarea {
+  display: flex;
+  flex-grow: 2;
+}
+
+.submit_button {
+  width: auto;
+  background: red;
+}
+
+.button_base {
+  
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
